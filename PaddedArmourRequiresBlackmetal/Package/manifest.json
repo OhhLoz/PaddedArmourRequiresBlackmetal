@@ -1,7 +1,7 @@
 {
   "name": "PaddedArmorRequiresBlackmetal",
-  "version_number": "1.0.0",
-  "website_url": "https://github.com/OhhLoz/HoneyPlus",
+  "version_number": "1.0.1",
+  "website_url": "https://github.com/OhhLoz/PaddedArmorRequiresBlackmetal",
   "description": "Makes Padded Armor require blackmetal with configurable values.",
   "dependencies": 
   [

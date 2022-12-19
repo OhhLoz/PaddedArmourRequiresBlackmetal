@@ -13,7 +13,7 @@ namespace PaddedArmourRequiresBlackmetal
     {
         public const string PluginGUID = "OhhLoz-PaddedArmorRequiresBlackmetal";
         public const string PluginName = "PaddedArmorRequiresBlackmetal";
-        public const string PluginVersion = "1.0.0";
+        public const string PluginVersion = "1.0.1";
         private ConfigEntry<float> PercentageBlackmetalCraft;
         private ConfigEntry<float> PercentageBlackmetalUpgrade;
 

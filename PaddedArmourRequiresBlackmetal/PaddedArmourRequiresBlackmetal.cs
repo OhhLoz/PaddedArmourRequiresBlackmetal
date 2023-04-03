@@ -13,7 +13,7 @@ namespace PaddedArmourRequiresBlackmetal
     {
         public const string PluginGUID = "OhhLoz-PaddedArmorRequiresBlackmetal";
         public const string PluginName = "PaddedArmorRequiresBlackmetal";
-        public const string PluginVersion = "1.0.2";
+        public const string PluginVersion = "1.0.3";
         private ConfigEntry<float> PercentageBlackmetalCraft;
         private ConfigEntry<float> PercentageBlackmetalUpgrade;
 
@@ -47,7 +47,7 @@ namespace PaddedArmourRequiresBlackmetal
                 {
                     fetchedRecipe.m_resources = new Piece.Requirement[]
                     {
-                        new Piece.Requirement() { m_resItem = PrefabManager.Cache.GetPrefab<ItemDrop>("Iron"), m_amount = (int) (10 * (1f-PercentageBlackmetalCraft.Value)), m_amountPerLevel = (int) (3 * 1f-PercentageBlackmetalUpgrade.Value)  },
+                        new Piece.Requirement() { m_resItem = PrefabManager.Cache.GetPrefab<ItemDrop>("Iron"), m_amount = (int) (10 * (1f-PercentageBlackmetalCraft.Value)), m_amountPerLevel = (int) (3 * (1f-PercentageBlackmetalUpgrade.Value))  },
                         new Piece.Requirement() { m_resItem = PrefabManager.Cache.GetPrefab<ItemDrop>("BlackMetal"), m_amount = (int) (10 * PercentageBlackmetalCraft.Value), m_amountPerLevel = (int) (3 * PercentageBlackmetalUpgrade.Value)},
                         new Piece.Requirement() { m_resItem = PrefabManager.Cache.GetPrefab<ItemDrop>("LinenThread"), m_amount = 20, m_amountPerLevel = 10 }
                     };
@@ -56,7 +56,7 @@ namespace PaddedArmourRequiresBlackmetal
                 {
                     fetchedRecipe.m_resources = new Piece.Requirement[]
                     {
-                        new Piece.Requirement() { m_resItem = PrefabManager.Cache.GetPrefab<ItemDrop>("Iron"), m_amount = (int) (10 * (1f-PercentageBlackmetalCraft.Value)), m_amountPerLevel = (int) (3 * 1f-PercentageBlackmetalUpgrade.Value)  },
+                        new Piece.Requirement() { m_resItem = PrefabManager.Cache.GetPrefab<ItemDrop>("Iron"), m_amount = (int) (10 * (1f-PercentageBlackmetalCraft.Value)), m_amountPerLevel = (int) (3 * (1f-PercentageBlackmetalUpgrade.Value))  },
                         new Piece.Requirement() { m_resItem = PrefabManager.Cache.GetPrefab<ItemDrop>("BlackMetal"), m_amount = (int) (10 * PercentageBlackmetalCraft.Value), m_amountPerLevel = (int) (3 * PercentageBlackmetalUpgrade.Value)},
                         new Piece.Requirement() { m_resItem = PrefabManager.Cache.GetPrefab<ItemDrop>("LinenThread"), m_amount = 20, m_amountPerLevel = 10  }
                     };
@@ -65,7 +65,7 @@ namespace PaddedArmourRequiresBlackmetal
                 {
                     fetchedRecipe.m_resources = new Piece.Requirement[]
                     {
-                        new Piece.Requirement() { m_resItem = PrefabManager.Cache.GetPrefab<ItemDrop>("Iron"), m_amount = (int) (10 * (1f-PercentageBlackmetalCraft.Value)), m_amountPerLevel = (int) (5 * 1f-PercentageBlackmetalUpgrade.Value)  },
+                        new Piece.Requirement() { m_resItem = PrefabManager.Cache.GetPrefab<ItemDrop>("Iron"), m_amount = (int) (10 * (1f-PercentageBlackmetalCraft.Value)), m_amountPerLevel = (int) (5 * (1f-PercentageBlackmetalUpgrade.Value))  },
                         new Piece.Requirement() { m_resItem = PrefabManager.Cache.GetPrefab<ItemDrop>("BlackMetal"), m_amount = (int) (10 * PercentageBlackmetalCraft.Value), m_amountPerLevel = (int) (5 * PercentageBlackmetalUpgrade.Value)},
                         new Piece.Requirement() { m_resItem = PrefabManager.Cache.GetPrefab<ItemDrop>("LinenThread"), m_amount = 15, m_amountPerLevel = 10  }
                     };

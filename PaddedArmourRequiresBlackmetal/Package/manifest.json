@@ -1,6 +1,6 @@
 {
   "name": "PaddedArmorRequiresBlackmetal",
-  "version_number": "1.0.2",
+  "version_number": "1.0.3",
   "website_url": "https://github.com/OhhLoz/PaddedArmourRequiresBlackmetal",
   "description": "Makes Padded Armor require blackmetal with configurable values.",
   "dependencies": 
